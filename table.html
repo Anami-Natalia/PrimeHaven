@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/table.png">
+    <title> Using colspan and rawspan</title>
+
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            margin-left: 50px;
+            margin-top: 200px;
+            width: 70%;
+            height: 400px;
+            text-align: center;
+
+        }
+        body{
+            background-color: rgb(84, 86, 165);
+        }
+    </style>
+</head>
+<body>
+    <h2> Using colspan and rawspan</h2>
+    <table>
+        <tr>
+            <th colspan="2"> Subject</th>
+            <th> John Doe</th>
+            <th> Mirriam Luther</th>
+        </tr>
+        <tr>
+            <th rowspan="2"> Biology</th>
+            <td>Practicle</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <th rowspan="2"> Chemistry</th>
+            <td>Practicle</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A</td>
+            <td>C+</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Physics</th>
+            <td>Practicle</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A-</td>
+            <td>A</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
